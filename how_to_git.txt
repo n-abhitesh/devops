@@ -57,3 +57,25 @@ Certainly! Here's a step-by-step guide to performing basic Git operations on Win
     ```
 
 These are the basic operations you'll need to get started with Git on Windows. Remember to replace placeholders like `<remote_repository_URL>` and `<branch_name>` with your actual repository URL and branch names.
+
+
+
+----------------------
+
+
+sudo apt-get install git
+git --version 
+git init
+git add <file>
+git commit -a -m "Your commit message"
+git remote add origin <remote_repository_URL>
+git push -u origin master
+git pull origin master
+git fetch origin
+git branch new_branch
+git checkout new_branch
+git checkout master
+git merge new_branch
+
+
+----------------------
